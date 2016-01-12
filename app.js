@@ -19,6 +19,9 @@ MongoClient.connect('mongodb://localhost:27017/mongo_university', function(err, 
     res.render('index.jade');
   });
 
+  app.post('/', function(req, res){
+    
+  })
   var server = app.listen(3000, function(){
     var port = server.address().port;
     console.log('Expess server lisening on port %s ', port);

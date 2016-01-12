@@ -7,4 +7,16 @@ html(lang="en")
     h1 What's your favorite movie?
       p Enter the information about your favorite movie below
       
-      
+    form(name="movies", method="post")
+    
+      .form-group
+        label.control-label title
+        input.form-control(type="text" name="title")
+        
+      .form-group
+        label.control-label year
+        input.form-control(type="text" name="year")
+        
+      .form-group
+        label.control-label title
+        input.form-control(type="text" name="title")
